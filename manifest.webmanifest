@@ -1,0 +1,11 @@
+{
+  "name":"داشبورد مدیر دفتر کلاسی",
+  "short_name":"دفتر کلاسی",
+  "start_url":".",
+  "display":"standalone",
+  "dir":"rtl",
+  "lang":"fa",
+  "theme_color":"#0f172a",
+  "background_color":"#f1f5f9",
+  "icons":[]
+}
