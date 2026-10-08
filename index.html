@@ -43,7 +43,10 @@
 
     <section id="monitoringTab" class="tab" hidden>
       <div class="toolbar">
-        <label>تاریخ شمسی<input id="monitorDate" placeholder="1405/07/12"></label>
+        <label>تاریخ شمسی
+          <input id="monitorDate" placeholder="مثال: 1405/07/12">
+          <small id="monitorWeekday" class="weekday-label"></small>
+        </label>
         <label>نمایش
           <select id="monitorFilter">
             <option value="all">همه</option>
@@ -60,7 +63,10 @@
 
     <section id="absencesTab" class="tab" hidden>
       <div class="toolbar">
-        <label>تاریخ شمسی<input id="absenceDate" placeholder="1405/07/12"></label>
+        <label>تاریخ شمسی
+          <input id="absenceDate" placeholder="مثال: 1405/07/12">
+          <small id="absenceWeekday" class="weekday-label"></small>
+        </label>
         <label>کلاس<select id="classSelect"></select></label>
         <label>زنگ<select id="periodSelect"><option value="">همه زنگ‌ها</option></select></label>
         <button id="absenceBtn" class="primary">مشاهده</button>
